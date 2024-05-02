@@ -1,0 +1,14 @@
+script
+ let nota = parseFloat(prompt(digite sua nota));
+    let notadois = parseFloat(prompt(digite sua segunda nota));
+
+    const media = (nota + notadois) 2 ;
+    
+    if (media  6 && media  0){
+        alert (voce esta reprovado e sua media e + media)
+    }else if (media = 6 && media = 10){
+        alert(voce esta aprovado e sua e+ media)
+    }else{
+        alert (nota invalida)
+    }
+script
